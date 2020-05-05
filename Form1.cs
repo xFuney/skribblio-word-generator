@@ -93,6 +93,10 @@ namespace Scribblio_Custom_Words_Generator
                             break;
                         }
                     }
+                    else
+                    {
+                        lines--;
+                    }
                 };
 
                 // Close the file because we are finished with it.
@@ -105,7 +109,7 @@ namespace Scribblio_Custom_Words_Generator
                 // FOR loop is over, so let the user know that the output has been generated and produce it.
 
                 output.Text = outputText;
-                MessageBox.Show("Output has been generated.", "Generated", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Output has been generated.\nUsed " + selectedAmount + " out of " + lines + " words.", "Generated", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 // Probably useless, but we'll wipe out all the used variables to reduce memory consumption.
                 Dispose();
