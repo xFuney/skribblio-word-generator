@@ -1,7 +1,7 @@
 # Skribbl.io Word Generator
 This program takes a newline-separated TXT file and converts it into a CSV format ready to be copy/pasted into a skribbl.io game.
 
-This was thrown together to make taking an over 50-entry newline-separated word pool much simpler, as I'm pretty lazy and wanted to get it done as quick as possible.
+This was thrown together to make taking an over 50-entry newline-separated word pool and converting it to a compatible CSV format much simpler, as I'm pretty lazy and wanted to get it done as quick as possible.
 
 # Text File Syntax
 This program accepts newline-separated text files, the syntax is below.
