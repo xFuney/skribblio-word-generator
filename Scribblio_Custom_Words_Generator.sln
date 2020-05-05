@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scribblio_Custom_Words_Generator", "Scribblio_Custom_Words_Generator.csproj", "{F6370E8F-7B07-44BB-8D94-6BF0F8118013}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6370E8F-7B07-44BB-8D94-6BF0F8118013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6370E8F-7B07-44BB-8D94-6BF0F8118013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6370E8F-7B07-44BB-8D94-6BF0F8118013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6370E8F-7B07-44BB-8D94-6BF0F8118013}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB196300-BA0B-410A-BCB3-ED863E9FF9E4}
+	EndGlobalSection
+EndGlobal
